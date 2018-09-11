@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  gobot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+     image: khomkrit/gobot
+      ports:
+        git ini- "8080:8080"
+       
+   
